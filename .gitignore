@@ -1,0 +1,34 @@
+# Android build files
+/build/
+**/build/
+.cxx/
+.externalNativeBuild/
+
+# Local config
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Specific .idea files to ignore
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Keystore files (important!)
+*.jks
+*.keystore
+
+# Firebase config (if used)
+**/google-services.json
+
+# macOS
+.DS_Store
+
+# Misc
+*.log
+captures/
